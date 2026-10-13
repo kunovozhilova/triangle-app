@@ -5,6 +5,11 @@
 
 int main() {
     double a, b, c;
+
+    if (!isTriangleValid(a, b, c)) {
+    std::cout << "Треугольник не существует." << std::endl;
+    return 0;
+}
     std::cout << "Введите три стороны треугольника: ";
     std::cin >> a >> b >> c;
     
